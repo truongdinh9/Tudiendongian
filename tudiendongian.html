@@ -5,6 +5,23 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let a=[" be "," have "," do "," say "," go "," get "," make "," know "," think "," take "," see "," come "," want "," use "," find"," give "," tell "," work "," call "," try "," ask "," need "," feel "," become "," leave "," put "," mean "," keep "," let ","begin "," seem "," help "," show "," hear "," play "," run "," move "," live "," believe "," bring "," happen "," write ","sit "," stand "," lose "," pay "," meet "," include "," continue "," set "," learn "," change "," lead "," understand ","watch "," follow "," stop "," create "," speak "," read "," spend "," grow "," open "," walk "," win "," teach "," offer"," remember "," consider "," appear "," buy "," serve "," die "," send "," build "," stay "," fall "," cut "," reach "," kill"," raise "," pass "," sell "," decide "," return "," explain "," hope "," develop "," carry "," break "," receive "," agree"," support "," hit "," produce "," eat "," cover "," catch "," draw "," choose "];
+    let b=[" được "," có "," làm "," nói "," đi "," được "," làm "," biết "," nghĩ "," lấy "," thấy "," đến "," muốn "," dùng "," tìm thấy ","cho "," nói "," công việc "," cuộc gọi "," thử "," hỏi "," nhu cầu "," cảm "," trở thành "," rời khỏi "," đặt "," nghĩa là ","giữ "," để cho "," bắt đầu "," hình như "," giúp "," buổi diễn "," nghe "," chơi "," chạy "," di chuyển "," sống "," tintưởng "," đem lại "," xảy ra "," viết "," ngồi "," đứng "," mất "," trả "," gặp "," bao gồm "," tiếp tục "," bộ "," học hỏi ","thay đổi "," chì "," hiểu "," xem "," theo "," dừng lại "," sáng tạo "," nói "," đọc "," tiêu "," lớn lên "," mở "," đi bộ ","thắng lợi "," dạy "," phục vụ "," nhớ lại "," xem xét "," xuất hiện "," mua "," phục vụ "," chết "," gởi "," xây dựng "," ởlại "," rơi "," cắt "," đến "," giết "," nâng cao "," vượt qua "," bán "," quyết định "," trở về "," giải thích "," hy vọng ","phát triển "," mang "," nghỉ "," nhận "," đồng ý "," ủng hộ, hỗ trợ "," đánh "," sản xuất "," ăn "," che phủ "," bắt "," vẽ"," chọn "];
+    let i= "";
+    let m=0;
+    let valu;
+    while (i===""){
+        valu=" "+prompt("Nhập 1 động từ tiếng anh")+" ";
+        for (let j=0;j<a.length;j++){
+            if(valu===a[j]){alert("Kết quả đã được dịch: " +a[j]+" : " +b[j]); m=1; break;}
+        }
 
+        if (m !== 1) {
+            alert("Xin lỗi động từ này không có trong từ điển này")
+        }
+        i=prompt("Nhấn enter để tiếp tục, Nhập No để kết thúc ");
+    }
+</script>
 </body>
 </html>
